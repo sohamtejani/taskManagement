@@ -1,0 +1,31 @@
+# Ignore Maven target directory
+target/
+
+# Ignore compiled class files
+*.class
+
+# Ignore log files
+*.log
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+*.iml
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore environment-specific files
+.env
+*.swp
+
+# Ignore dependencies in React (Frontend/eventify/node_modules)
+Frontend/eventify/node_modules/
+
+# Ignore build files from React
+Frontend/eventify/build/
+
+# Ignore package-lock.json and yarn.lock (optional)
+package-lock.json
+yarn.lock
